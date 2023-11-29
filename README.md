@@ -1,12 +1,12 @@
 # Data visualization analysis of new energy vehicle-related microblogs
 
-Directory
+# Directory
 
 1. [Introduction](#introduction)
 
 2. [Programming](#programming)
 
-   2.1. [Data Preprocessing]
+   2.1. [Data Preprocessing](#Data-Preprocessing)
 
    2.2. [Fundamental Analysis](#fundamental-analysis)
 

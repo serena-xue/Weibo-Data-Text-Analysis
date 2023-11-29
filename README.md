@@ -101,7 +101,7 @@ use drop\_duplicates () to deduplicate the filtered content, and export
 the data as related to new energy vehiclesWeibo data .csv. The code is
 shown in Figure 1.
 
-![](./images/media/image1.png)![](./images/media/image2.png)![](./images/media/image3.png)![](./images/media/image4.png)![](./images/media/image5.png)
+![](./images/image1.png)![](./images/image2.png)![](./images/image3.png)![](./images/image4.png)![](./images/image5.png)
 
 1.  **Data preprocessing code**
 
@@ -111,7 +111,7 @@ conditions is 2,030, and the number of data entries after deduplication
 and cleaning is 2,011, city, gender, number of fans, number of Weibo,
 transfer, comment, like,Topic, Weibo sentiment, MD5-author ID, MD5-mid.
 
-![](./images/media/image6.png)
+![](./images/image6.png)
 
 1.  **Data preprocessing results**
 
@@ -122,7 +122,7 @@ microblogs over time, geographical distribution, examples of popular
 microblogs, and analysis of the change of microblog sentiment over time,
 and the main program is main.py.
 
-![](./images/media/image7.png)
+![](./images/image7.png)
 
 1.  The result output path and data import in the main.py
 
@@ -144,15 +144,15 @@ then use dic.keys() as the horizontal axis and dic.values() as the
 vertical axis to plot with plt.plot(). The above code is shown in Figure
 4.
 
-![](./images/media/image8.png)
+![](./images/image8.png)
 
-![](./images/media/image9.png)![](./images/media/image10.png)
+![](./images/image9.png)![](./images/image10.png)
 
-![](./images/media/image11.png)
+![](./images/image11.png)
 
-![](./images/media/image12.png)
+![](./images/image12.png)
 
-![](./images/media/image13.png)
+![](./images/image13.png)
 
 1.  **The number of microblogs changes over time**
 
@@ -169,15 +169,15 @@ woman\_dic. Finally, the man\_dic and woman\_dic are imported as a
 dictionary list into the draw\_stacked() method in the draw.py to draw
 the stacked area chart. The above code is shown in Figure 5.
 
-![](./images/media/image14.png)
+![](./images/image14.png)
 
-![](./images/media/image15.png)
+![](./images/image15.png)
 
-![](./images/media/image16.png)
+![](./images/image16.png)
 
-![](./images/media/image17.png)
+![](./images/image17.png)
 
-![](./images/media/image18.png)
+![](./images/image18.png)
 
 1.  **Gender distribution over time code**
 
@@ -202,19 +202,19 @@ pieces to put the segmentation information, and finally use
 map.add().Add data and set the map to "China", map.render() generates an
 interactive html geographic map. The above code is shown in Figure 6.
 
-![](./images/media/image19.png)
+![](./images/image19.png)
 
-![](./images/media/image20.png)
+![](./images/image20.png)
 
-![](./images/media/image21.png)
+![](./images/image21.png)
 
-![](./images/media/image22.png)
+![](./images/image22.png)
 
-![](./images/media/image23.png)
+![](./images/image23.png)
 
-![](./images/media/image24.png)
+![](./images/image24.png)
 
-![](./images/media/image25.png)
+![](./images/image25.png)
 
 1.  **Geographic distribution code**
 
@@ -232,13 +232,13 @@ are imported as a dictionary list into the draw\_stacked() method in the
 draw.py to plot the stacked area chart. The above code is shown in
 Figure 7.
 
-![](./images/media/image26.png)
+![](./images/image26.png)
 
-![](./images/media/image27.png)
+![](./images/image27.png)
 
-![](./images/media/image28.png)
+![](./images/image28.png)
 
-![](./images/media/image29.png)
+![](./images/image29.png)
 
 1.  **Weibo sentiment over time code**
 
@@ -251,9 +251,9 @@ then sort them in descending order according to the column sum, and
 finally export the first 5 rows of data. The above code is shown in
 Figure 8.
 
-![](./images/media/image30.png)
+![](./images/image30.png)
 
-![](./images/media/image31.png)
+![](./images/image31.png)
 
 1.  **Popular microblogging code**
 
@@ -265,7 +265,7 @@ text\_analysis .py. Figure 9 shows the code for text analysis data
 preparation, extracting Weibo content and saving it to Weibo
 contentcsv。
 
-![](./images/media/image32.png)
+![](./images/image32.png)
 
 1.  **Text Analytics data preparation code**
 
@@ -285,13 +285,13 @@ negative. Then, the Weibo content and sentiment value are combined into
 the dataframe format, and the first row of empty values is deleted and
 exported. The above code is shown in Figure 10.
 
-![](./images/media/image33.png)
+![](./images/image33.png)
 
-![](./images/media/image34.png)
+![](./images/image34.png)
 
-![](./images/media/image35.png)
+![](./images/image35.png)
 
-![](./images/media/image36.png)
+![](./images/image36.png)
 
 1.  **Sentiment analysis code**
 
@@ -309,15 +309,15 @@ the LDA model includes interference information such as "##", "http",
 to eliminate interference and obtain ideal results. The above code is
 shown in Figure 11.
 
-![](./images/media/image37.png)
+![](./images/image37.png)
 
-![](./images/media/image38.png)
+![](./images/image38.png)
 
-![](./images/media/image39.png)
+![](./images/image39.png)
 
-![](./images/media/image40.png)
+![](./images/image40.png)
 
-![](./images/media/image41.png)
+![](./images/image41.png)
 
 1.  **Tokenization codes**
 
@@ -332,11 +332,11 @@ jieba.analyse.extract\_tags () to extract keywords, extract the top 20
 keywords, the top 10 noun keywords, the top 10 verb keywords, and the
 top 10 adjective keywords. The above code is shown in Figure 12.
 
-![](./images/media/image42.png)
+![](./images/image42.png)
 
-![](./images/media/image43.png)
+![](./images/image43.png)
 
-![](./images/media/image44.png)
+![](./images/image44.png)
 
 1.  **Extract keyword codes**
 
@@ -353,13 +353,13 @@ documents. LDA is a document generation model in which an article has
 multiple topics, each corresponding to a different word. The above code
 is shown in Figure 13.
 
-![](./images/media/image45.png)
+![](./images/image45.png)
 
-![](./images/media/image46.png)
+![](./images/image46.png)
 
-![](./images/media/image47.png)
+![](./images/image47.png)
 
-![](./images/media/image48.png)
+![](./images/image48.png)
 
 1.  **LDA topic model code**
 
@@ -373,11 +373,11 @@ Set the font size, font, background color, and color set of the word
 cloud, use generate() to generate the word cloud, and save and display
 it. The above code is shown in Figure 14.
 
-![](./images/media/image49.png)
+![](./images/image49.png)
 
-![](./images/media/image50.png)
+![](./images/image50.png)
 
-![](./images/media/image51.png)
+![](./images/image51.png)
 
 1.  **Word cloud code**
 
@@ -401,7 +401,7 @@ Weibo related to new energy vehicles will continue to increase in the
 future, and people's attention to new energy vehicles will continue to
 rise.
 
-![](./images/media/image52.png)
+![](./images/image52.png)
 
 1.  **Line graph of the number of microblogs over time**
 
@@ -413,7 +413,7 @@ over time. The male-to-female ratio of NEVs-related microblogs is about
 proportion is gradually increasing, and the promotion of new energy
 vehicles should strengthen the publicity of female consumers.
 
-![](./images/media/image53.png)
+![](./images/image53.png)
 
 1.  **Stacked area plot of the number of microblogs by gender over
     time**
@@ -430,7 +430,7 @@ results of this experiment show that second- and third-tier cities have
 a high degree of attention, which may be related to the sample. This
 also means that new energy vehicles need to be further promoted.
 
-![](./images/media/image54.png)
+![](./images/image54.png)
 
 1.  **Geographical map of geographical distribution**
 
@@ -459,7 +459,7 @@ Weibo users, indicating that new energy vehicles are still in the stage
 of technological development, and China's new energy vehicle industry
 still has a lot of room for development in terms of technology.
 
-![](./images/media/image55.png)
+![](./images/image55.png)
 
 1.  **Examples of popular Weibo**
 
@@ -475,7 +475,7 @@ emotions will also attract more attention, joy is related to industrial
 development, and new energy vehicle related topics are difficult to
 relate to sadness.
 
-![](./images/media/image56.png)![](./images/media/image57.png)
+![](./images/image56.png)![](./images/image57.png)
 
 1.  **Stacked area plot of different microblog sentiments over time**
 
@@ -759,11 +759,11 @@ technological development of China's new energy vehicles, and have more
 negative attitudes towards Tesla, which is consistent with the above
 analysis conclusions.
 
-![](./images/media/image58.png)
+![](./images/image58.png)
 
 1.  **Word cloud diagrams**
 
-![](./images/media/image59.png) ![](./images/media/image60.png)
+![](./images/image59.png) ![](./images/image60.png)
 
 1.  **Positive Sentiment Word Cloud (left), Negative Sentiment Word
     Cloud (right)**
